@@ -33,22 +33,22 @@
   },
   "AdaBoost": {
     "best_params": {
-      "n_estimators": 50,
+      "n_estimators": 200,
       "learning_rate": 1.5
     },
-    "accuracy": 0.8402,
-    "f1_score": 0.4844,
-    "roc_auc": 0.8224
+    "accuracy": 0.8438,
+    "f1_score": 0.4981,
+    "roc_auc": 0.8268
   },
   "XGBoost": {
     "best_params": {
       "subsample": 0.8,
       "n_estimators": 200,
       "max_depth": 7,
-      "learning_rate": 0.1
+      "learning_rate": 0.05
     },
-    "accuracy": 0.9492,
-    "f1_score": 0.8636,
-    "roc_auc": 0.9718
+    "accuracy": 0.9431,
+    "f1_score": 0.8498,
+    "roc_auc": 0.9751
   }
 }
